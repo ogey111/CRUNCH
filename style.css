@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: purple;
+    align-items: center;
+    color: white;
+    
+    
+}
+header h2{
+    padding: 10px;
+    
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+nav a{
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+    font-weight: bold;
+    height: 50px;
+
+}
+nav a:hover{
+background-color: white;
+color: purple;
+
+}
